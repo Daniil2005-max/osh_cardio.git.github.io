@@ -1,0 +1,126 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+i{
+	font-family: fontawesome !important;
+}
+header{
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	width: 100%;
+}
+.header{
+	background: #0971b2;
+	color: #fff;
+}
+.header a{
+	color: #fff;
+}
+.navbar-brand{
+	margin-right: 80px;
+}
+.white-shadow{
+	filter: drop-shadow(0px -2px 4px #fff);
+}
+/*конец Шапки*/
+
+.banner{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+/*начало иконок*/
+
+.circle{
+	max-width: 80px;
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	border-radius: 50%;
+	box-shadow: 0px 9px 35px -6px rgba(0,0,0,0.3);
+	display: inline-block;
+	background-color: #fff;
+	position: relative;
+	text-align: center; 
+}
+.circle .fa{
+	margin-top: 30%;
+}
+.col-4.green:hover .circle{
+	transform: translateY(-10px);
+	transition: transform .4s, box-shadow .4s;
+	box-shadow: 0px 9px 35px -6px green;
+}
+.col-4.red:hover .circle{
+	transform: translateY(-10px);
+	transition: transform .4s, box-shadow .4s;
+	box-shadow: 0px 9px 35px -6px red;
+}
+.col-4.blue:hover .circle{
+	transform: translateY(-10px);
+	transition: transform .4s, box-shadow .4s;
+	box-shadow: 0px 9px 35px -6px #0177B5;
+}
+.services .col-4 h4{
+	margin: 30px 0 10px;
+}
+.services .green:hover h4{
+	color: green;
+}
+.services .red:hover h4{
+	color: red;
+}
+
+.services .blue:hover h4{
+	color: #0177B5;
+}
+.services .col-4{
+	text-align: center;
+}
+.modal-title{
+	margin: 0 auto;
+	color: red;
+}
+/*Servi section*/
+.servi-title{
+	text-align: center;
+	margin-bottom: 50px;
+	color: #0071b1;
+	font-weight: bold;
+}
+.icon-small {
+    color: #C62828 !important;
+    background-color: #FFFFFF !important;
+}
+.btn{
+	display: inline-block;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+}
+.btn-round {
+    border-width: 1px;
+    border-radius: 30px !important;
+    padding: 11px 23px;
+}
+.m-style {
+    margin: 7px 0 !important;
+}
+.btn .navbar .navbar-nav > a.btn {
+    border-width: 2px;
+    font-weight: 400;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    margin: 5px 1px;
+    border: none;
+    margin: 10px 1px;
+    border-radius: 0.1875rem;
+    padding: 11px 22px;
+    cursor: pointer;
+    }
+
+
+
+
+
+
+
+
