@@ -1,4 +1,4 @@
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 i{
 	font-family: fontawesome !important;
 }
@@ -21,13 +21,12 @@ header{
 .white-shadow{
 	filter: drop-shadow(0px -2px 4px #fff);
 }
-/*конец Шапки*/
+/*Конец Шапки*/
 
 .banner{
 	box-shadow: 0 0 10px rgba(0,0,0,0.5)
 }
-/*начало иконок*/
-
+/*Начало иконок*/
 .circle{
 	max-width: 80px;
 	width: 80px;
@@ -38,7 +37,7 @@ header{
 	display: inline-block;
 	background-color: #fff;
 	position: relative;
-	text-align: center; 
+	text-align: center;
 }
 .circle .fa{
 	margin-top: 30%;
@@ -59,15 +58,14 @@ header{
 	box-shadow: 0px 9px 35px -6px #0177B5;
 }
 .services .col-4 h4{
-	margin: 30px 0 10px;
+	margin: 30px 0 10px; 
 }
 .services .green:hover h4{
 	color: green;
-}
+} 
 .services .red:hover h4{
 	color: red;
-}
-
+} 
 .services .blue:hover h4{
 	color: #0177B5;
 }
@@ -78,49 +76,155 @@ header{
 	margin: 0 auto;
 	color: red;
 }
-/*Servi section*/
+/*Servi section begin*/
 .servi-title{
 	text-align: center;
 	margin-bottom: 50px;
 	color: #0071b1;
 	font-weight: bold;
 }
-.icon-small {
-    color: #C62828 !important;
-    background-color: #FFFFFF !important;
+.block-btn{
+	height: 60px;
+	width: 200px;
+	margin: 0 auto;
+	padding: 10px;
 }
-.btn{
-	display: inline-block;
+.btn-round{
+	margin-top: 20px;
+	border-width: 1px;
+	border-radius: 30px !important;
+	padding: 5px 20px;
+}
+.icon-small{
+	color: #c62828 !important;
+	background-color: #fff !important;
+}
+.block-btn .btn:hover{
+	background-color: red;
+}
+.card-background{
+	background-position: center center;
+	background-size: cover;
 	text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
+	transition: all 0.5s;
 }
-.btn-round {
-    border-width: 1px;
-    border-radius: 30px !important;
-    padding: 11px 23px;
+.card-background .card-body{
+	position: relative;
+	z-index: 2;
+	min-height: 370px;
+	max-width: 500px;
+	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 60px; 
 }
-.m-style {
-    margin: 7px 0 !important;
+.card{
+	border: 0;
+	border-radius: 0.25rem;
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 30px;
+	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.4);
 }
-.btn .navbar .navbar-nav > a.btn {
-    border-width: 2px;
-    font-weight: 400;
-    font-size: 0.8571em;
-    line-height: 1.35em;
-    margin: 5px 1px;
-    border: none;
-    margin: 10px 1px;
-    border-radius: 0.1875rem;
-    padding: 11px 22px;
-    cursor: pointer;
-    }
-
-
-
-
-
-
-
-
+.card-background::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.card-background:hover{
+	transform: translateY(-15px);
+	transition: all 0.3s;
+}
+/*Testimonials*/
+.title-info{
+	color: #0773a2;
+	font-weight: 500;
+	font-size: 2.1em;
+}
+.description-info{
+	font-size: 1.4em;
+	margin-bottom: 50px;
+	color: #5f5f5f;
+	font-weight: 400;
+}
+.card-testimonial{
+	margin-top: 30px;
+	text-align: center;
+}
+.card-testimonial .card-avatar{
+	max-width: 110px;
+	max-height: 110px;
+	margin: -60px auto 0;
+}
+.card-testimonial .card-avatar img{
+	border-radius: 50% !important;
+}
+.testimonials img{
+	max-width: 100%;
+	border-radius: 1px;
+	height: auto;
+}
+.icon-red{
+	color: #c62828;
+}
+.card-description{
+	color: #9a9a9a;
+	font-weight: 400;
+}
+.img-raised{
+	box-shadow: 0px 10px 25px 0px rgba(0,0,0,0.3);
+}
+/*contacts*/
+.card-pricing{
+	text-align: center;
+}
+.title{
+	color: #0071ba;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.input-group{
+	margin-bottom: 12px;
+	position: relative;
+}
+.form-control{
+	border-radius: 25px;
+}
+.card-pricing ul{
+	list-style: none;
+	padding: 0;
+	max-width: 240px;
+	margin: 20px auto;
+}
+.card-pricing ul li{
+	color: #888888;
+	text-align: center;
+	font-size: 16px;
+	padding: 20px 0;
+	border-bottom: 1px solid rgba(136,136,136,0.3);
+}
+.card-pricing ul li i{
+	top: 3px;
+	right: 3px;
+	position: relative;
+	font-size: 24px;
+}
+/*Footer*/
+footer{
+	height: 70px;
+}
+.footer-menu{
+	list-style: none;
+	margin-top: 20px;
+}
+.footer-menu li{
+	display: inline;
+	padding: 5px;
+	text-transform: uppercase;
+}
