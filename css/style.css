@@ -289,5 +289,9 @@ footer{
 }
 .licence:hover{
 	transform: scale(1.2); 
-	
+}
+/*Services*/
+.content-services .title-info{
+	font-size: 26px;
+	font-weight: 600;
 }
